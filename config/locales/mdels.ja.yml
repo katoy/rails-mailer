@@ -1,0 +1,11 @@
+ja:
+  activemodel:
+    <<: activerecord
+    models:
+      inquiry: 'お問い合わせ'
+
+    attributes:
+      inquiry:
+        subject: '件名'
+        email: 'メールアドレス'
+        message: 'お問い合わせ内容'

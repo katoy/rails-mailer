@@ -1,0 +1,17 @@
+# Configuration parameters: CountComments.
+Metrics/BlockLength:
+  Max: 121
+
+# Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
+# URISchemes: http, https
+Metrics/LineLength:
+  Max: 120
+
+Style/AsciiComments:
+  Exclude:
+    - '**/*'
+
+# Offense count: 7
+Style/Documentation:
+  Exclude:
+    - '**/*'

@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+
+  root 'welcome#index'
+
+  resource :top, only: [:index]
+
+  resource :inquiry, only: [:show, :new, :create]
+  get 'inquiry/complete' => 'inquiries#complete'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
