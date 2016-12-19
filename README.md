@@ -40,6 +40,12 @@ app/controller/inquiries_controller.rb の作成
 
 app/models/inquey.rb  の作成
 
+ ... 省略 ...
+
+# スクリーンショット (アニメーション gif)
+
+![screenshots/mail.gif](screenshots/mail.gif)!
+
 
 # See
 
